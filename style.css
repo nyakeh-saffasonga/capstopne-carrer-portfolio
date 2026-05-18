@@ -1,4 +1,4 @@
-*{
+* {
     margin:0;
     padding:0;
     box-sizing:border-box;
@@ -9,33 +9,33 @@
     src: url(./fonts/OCRAEXT.TTF);
 }
 
-body{
-    font-family:Arial, Helvetica, sans-serif;
-    background:#170d16;
-    color:white;
+body {
+    font-family: OCR A Extended;
+    background: #170d16;
+    color: white;
     line-height:1.6;
 }
 
-nav{
-    display:flex;
+nav {
+    display: flex;
     justify-content:space-between;
     align-items:center;
     padding:20px 50px;
-    background:#251127;
+    background:#9000c9;
 }
 
-nav ul{
+nav ul {
     display:flex;
     gap:20px;
     list-style:none;
 }
 
-nav a{
+nav a {
     color:white;
     text-decoration:none;
 }
 
-.hero{
+.hero {
     height:90vh;
     display:flex;
     justify-content:center;
@@ -44,54 +44,52 @@ nav a{
     padding:40px;
 }
 
-.hero-content{
+.heroContent {
     max-width:800px;
 }
 
-.hero h2{
+.hero h2 {
     font-size:4rem;
     margin-bottom:20px;
 }
 
-.hero p{
+.hero p {
     font-size:1.2rem;
     margin-bottom:30px;
 }
 
-.btn{
-    padding:15px 30px;
-    background:#ae00ff;
-    color:black;
-    text-decoration:none;
-    border-radius:10px;
-    font-weight:bold;
+.btn {
+    padding: 15px 30px;
+    background: #ae00ff;
+    color: black;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
 }
 
-.cards,
-.industry-grid,
-.path-grid{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
-    gap:30px;
-    padding:50px;
+.cards, .industryGrid, .pathGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    gap: 30px;
+    padding: 50px;
 }
 
-.card, .industry-card, .path-card, .career-box, .timeline-item {
+.card, .industryCard, .pathCard, .careerBox, .timelineItem {
     background:#1e1622;
     padding:30px;
     border-radius:15px;
     border:1px solid #3a303d;
 }
 
-.career-container {
+.careerContainer {
     padding:50px;
 }
 
-.career-section {
+.careerSection {
     margin-bottom:50px;
 }
 
-.career-box ul {
+.careerBox ul {
     margin-left:20px;
 }
 
@@ -128,44 +126,44 @@ nav {
 }
 
 
-.show{
+.show {
     opacity:1;
     transform:translateY(0);
 }
 
-.page-title{
+.pageTitle {
     text-align:center;
     font-size:3rem;
     margin:60px 0;
 }
 
-.path-section{
+.pathSection {
     padding:0 50px 50px 50px;
 }
 
-.path-section h2{
+.pathSection h2 {
     margin-bottom:30px;
     font-size:2rem;
 }
 
-.full-width{
+.fullWidth {
     width:100%;
 }
 
-.sources-container{
+.sourcesContainer {
     display:grid;
     grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
     gap:25px;
     padding:50px;
 }
 
-.source-card{
+.sourceCard {
     background:#1e1622;
     padding:30px;
     border-radius:15px;
     border:1px solid #39303d;
 }
 
-.timeline-page{
+.timelinePage {
     padding-bottom:100px;
 }
