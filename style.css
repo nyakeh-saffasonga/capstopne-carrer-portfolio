@@ -4,9 +4,14 @@
     box-sizing:border-box;
 }
 
+@font-face {
+    font-family: OCR A Extended;
+    src: url(./fonts/OCRAEXT.TTF);
+}
+
 body{
     font-family:Arial, Helvetica, sans-serif;
-    background:#0d1117;
+    background:#170d16;
     color:white;
     line-height:1.6;
 }
@@ -16,7 +21,7 @@ nav{
     justify-content:space-between;
     align-items:center;
     padding:20px 50px;
-    background:#111827;
+    background:#251127;
 }
 
 nav ul{
@@ -55,7 +60,7 @@ nav a{
 
 .btn{
     padding:15px 30px;
-    background:#00bfff;
+    background:#ae00ff;
     color:black;
     text-decoration:none;
     border-radius:10px;
@@ -72,10 +77,10 @@ nav a{
 }
 
 .card, .industry-card, .path-card, .career-box, .timeline-item {
-    background:#161b22;
+    background:#1e1622;
     padding:30px;
     border-radius:15px;
-    border:1px solid #30363d;
+    border:1px solid #3a303d;
 }
 
 .career-container {
@@ -93,7 +98,7 @@ nav a{
 .ladder {
     margin-top:20px;
     padding:20px;
-    background:#0f172a;
+    background:#250f2a;
     border-radius:10px;
     text-align:center;
 }
@@ -108,7 +113,7 @@ nav a{
 footer {
     text-align:center;
     padding:30px;
-    background:#111827;
+    background:#221127;
 }
 
 html {
@@ -155,10 +160,10 @@ nav {
 }
 
 .source-card{
-    background:#161b22;
+    background:#1e1622;
     padding:30px;
     border-radius:15px;
-    border:1px solid #30363d;
+    border:1px solid #39303d;
 }
 
 .timeline-page{
